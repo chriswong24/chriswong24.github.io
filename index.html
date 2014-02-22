@@ -3,27 +3,45 @@
 	<html xmlns="http://www.w3.org/1999/xhtml">
 
   		<head>
+
+  			<!-- Metadata about the webpage
+  				=============================================== -->
+
+  			<meta name = "description" content ="Christopher Wong's Webpage">
+  			<meta name = "author" content = "Christopher Wong">
+
     		<title> Chris Wong </title>
-   			<link href = ""//fonts.googleapis.com/css?family=Lato:300,400,700"
-                rel = "stylesheet" type = text/css">        
+
+    		<!-- CSS 
+    			=============================================== -->   
+            <link rel = "stylesheet" href = "stylesheets/base.css">
+            <link rel = "stylesheet" href = "stylesheets/skeleton.css">
+            <link rel = "stylesheet" href = "stylesheets/layout.css">         
  		</head>
 
    		<body> 
-			<div id = "blink">
-				Hello World
-			</div>
-
-			<script type="text/javascript">
-					$(document).ready(function() {
-    				var f = document.getElementById('blink');
-    				setInterval(function() {
-       				f.style.display = (f.style.display == 'none' ? '' : 'none');
-    				}, 100);
-
-				});
-
-			</script>		
-
+			<div class = "containter">
+				<div class ="six columns">
+					<h1>
+						<span>Chris</span>
+						Wong
+					</h1>
+				</div>
+				<div class = "eleven columns">
+					<nav>
+						<ul>
+							<li>
+								<a href = "chriswong.co/about">about</a>
+							</li>
+							<li>
+								<a href = "chriswong.co/projects">projects</a>
+							</li>
+							<li>
+								<a href = "chriswong.co/contact">contact</a>
+							</li>					
+						</ul>
+					</nav>
+				</div>		
 
 		</body>
 
