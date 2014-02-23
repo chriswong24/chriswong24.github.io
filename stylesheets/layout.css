@@ -32,6 +32,12 @@
 	width: 1020px;
 	margin: 0px auto;
 	padding: 0px;
+}
+.container.narrow{
+	width:500px;
+	text-align: center;
+	font-size: 18px;
+	padding:30px;
 }	
 
 .main{
