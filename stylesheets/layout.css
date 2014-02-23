@@ -19,8 +19,11 @@
 .nav_bar{
 	background: #E8E8E8;
 	margin-bottom: 0px;
-	margin: 0px 0px 15px 0px;
+	margin: 0px 0px 0px 0px;
 	height: 76px;
+}
+
+.nav_bar h1{
 	text-transform: lowercase;
 }
 
@@ -30,6 +33,38 @@
 	margin: 0px auto;
 	padding: 0px;
 }	
+
+.main{
+	width: 100%;
+}
+
+
+
+.full_img{
+	height: 487px;
+	width: 100%;
+}
+
+/* Hacky way of doing it, will fix later */
+
+.full_img img{
+	vertical-align: bottom;
+	margin-top: -11px;
+}
+
+.fullimg_desc{	
+	padding: .2em;
+	height: 60px;
+	position: absolute;
+	width: 100%;
+	background-color:rgba(0,0,0, 0.7);
+}
+
+.fullimg_desc h2{
+	text-align: center;
+	color: #FFF;
+	line-height: 1.5em;
+}
 
 
 
