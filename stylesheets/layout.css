@@ -43,18 +43,15 @@
 .full_img{
 	height: 487px;
 	width: 100%;
-}
-
-/* Hacky way of doing it, will fix later */
-
-.full_img img{
-	vertical-align: bottom;
-	margin-top: -11px;
+	position: relative;
+	background: url('../images/Cincinatti_Cover.jpg');
+	background-size: cover;
 }
 
 .fullimg_desc{	
 	padding: .2em;
 	height: 60px;
+	bottom: 0;
 	position: absolute;
 	width: 100%;
 	background-color:rgba(0,0,0, 0.7);
