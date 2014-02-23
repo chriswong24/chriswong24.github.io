@@ -33,25 +33,36 @@
 	margin: 0px auto;
 	padding: 0px;
 }
+
 .container.narrow{
 	width:500px;
 	text-align: center;
 	font-size: 18px;
 	padding:30px;
-}	
-
-.main{
-	width: 100%;
 }
 
+/* Social Media Links */
+.container.social{
+	word-spacing: 30px;
+	width: 700px;
+	padding: 30px;
+	margin-right: 100px;
+}
 
+.container.social img{
+	width: 46px;
+	height: 46px;
+}
 
 .full_img{
 	height: 487px;
 	width: 100%;
 	position: relative;
-	background: url('../images/Cincinatti_Cover.jpg');
+	background: url('../images/Cincinatti_Cover.jpg') no-repeat center center;
 	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 }
 
 .fullimg_desc{	
