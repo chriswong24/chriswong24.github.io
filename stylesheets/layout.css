@@ -17,7 +17,7 @@
 /* #Site Styles
 ================================================== */
 .nav_bar{
-	background: #DEDEDE;
+	background: #E8E8E8;
 	margin-bottom: 0px;
 	margin: 0px 0px 15px 0px;
 	height: 76px;
@@ -26,14 +26,12 @@
 
 .container{
 	position:relative;
-	width: 960px;
+	width: 1020px;
 	margin: 0px auto;
 	padding: 0px;
 }	
 
-.nav_bar nav{
-	float: right;
-}
+
 
 
 /* #Page Styles
