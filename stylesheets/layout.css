@@ -23,10 +23,6 @@
 	height: 76px;
 }
 
-.nav_bar h1{
-	text-transform: lowercase;
-}
-
 .container{
 	position:relative;
 	width: 1020px;
