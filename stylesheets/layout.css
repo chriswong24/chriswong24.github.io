@@ -42,6 +42,11 @@
 	word-spacing: 30px;
 	width: 380px;
 	padding: 30px;
+	margin-bottom: 15px;
+	background: #E8E8E8;
+	border: solid 1px;
+	border-color: #DADADA;
+	border-radius: 25px;
 }
 
 .container.social img{
@@ -65,7 +70,7 @@
 	height: 60px;
 	bottom: 0;
 	position: absolute;
-	width: 100%;
+	width: 99.55%; /* Hacky way of doing it, fix later */
 	background-color:rgba(0,0,0, 0.7);
 }
 

@@ -1,6 +1,7 @@
 #chriswong24.github.io
 
 ##To Do:
-Finish up about, projects, and contact page
-Possibly change up links in navigation bar
-
+*Finish up projects and contact pages
+*Change back to absolute references
+*Possibly change up links in navigation bar
+*Add mobile support to website
