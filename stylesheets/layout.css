@@ -37,6 +37,13 @@
 	padding:30px;
 }
 
+#blurb{
+	text-align: center;
+	font-size: 18px;
+	padding: 30px;
+	margin: 0 auto 0 auto;
+}
+
 /* Social Media Links */
 .container.social{
 	word-spacing: 30px;
@@ -54,8 +61,36 @@
 	height: 46px;
 }
 
+#headerImage{
+	position:relative;
+}
+
+#headerImage img{
+	max-width: 100%;
+	height: auto;
+	margin-top: -10px;
+}
+
+#headerImage_desc{
+	padding:.2em;
+	height:60px;
+	bottom:0;
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+
+	/* Fix these two to be less hacky*/
+	margin-bottom: -1px; 
+	width: 99.55%;
+}
+
+#headerImage_desc h2{
+	text-align: center;
+	color: #FFF;
+	line-height: 1.5em;
+}
+
 .full_img{
-	height: 645px;
+	height: 450px; /* Previous 645px */
 	width: 100%;
 	position: relative;
 	background: url('../images/Cincinatti_Cover.jpg') no-repeat center center;
@@ -63,6 +98,10 @@
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
+}
+
+.full_img.projects{
+	background: url('../images/Projects_Cover.jpg') no-repeat center center;
 }
 
 .fullimg_desc{	
@@ -79,6 +118,7 @@
 	color: #FFF;
 	line-height: 1.5em;
 }
+
 
 
 
