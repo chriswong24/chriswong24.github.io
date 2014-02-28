@@ -60,6 +60,27 @@
 	margin: 0 auto 30px auto;
 }
 
+#project{
+	  background: #E8E8E8;
+	  border: solid 1px;
+	  border-color: #DADADA;
+	  border-radius: 25px;
+	  margin: 0 auto 30px auto;
+	  max-width: 760px;
+	  font-size: 16px;
+}
+
+#project span{
+	font-weight: bold;
+}
+
+#project img{
+	float: left;
+	width: 96px;
+	height: 96px;
+	padding: 5px;
+}
+
 #social img{
 	width: 46px;
 	height: 46px;
