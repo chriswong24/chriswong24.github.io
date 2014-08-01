@@ -97,15 +97,11 @@
 }
 
 #headerImage_desc{
-	padding:.2em;
 	height:60px;
 	bottom:0;
 	background-color: rgba(0,0,0,0.7);
 	position: absolute;
-
-	/* Fix these two to be less hacky*/
-	margin-bottom: -1px; 
-	width: 99.55%;
+	width: 100%;
 }
 
 #headerImage_desc h2{
