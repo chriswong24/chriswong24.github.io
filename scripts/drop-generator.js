@@ -18,4 +18,4 @@ remainingSquares.forEach(square => mapArr.push(square));
 
 const dropPoint = randomValFromArray(remainingSquares);
 
-document.getElementById('drop-point').innerHTML = dropPoint.letter + dropPoint.numnber;
+document.getElementById('drop-point').innerHTML = dropPoint.letter + dropPoint.number;
