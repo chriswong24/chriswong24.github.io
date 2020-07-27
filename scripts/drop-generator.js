@@ -16,6 +16,6 @@ const remainingSquares = [{number: 1, letter: 'D'}, {number: 1, letter: 'E'}, {n
 numbers.forEach(num => letters.forEach(letter => mapArr.push({number: num, letter: letter})));
 remainingSquares.forEach(square => mapArr.push(square));
 
-const dropPoint = randomValFromArray(remainingSquares);
+const dropPoint = randomValFromArray(mapArr);
 
 document.getElementById('drop-point').innerHTML = dropPoint.letter + dropPoint.number;
